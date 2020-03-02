@@ -79,7 +79,7 @@ a.snake-link:hover {
 }
 
 .snake-playing-field {
-    margin: 5px;
+    margin: 0px;
     padding: 0px;
     position: absolute;
     background-color: #FFFAF0;
