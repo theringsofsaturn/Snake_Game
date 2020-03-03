@@ -722,7 +722,7 @@ SNAKE.Board = SNAKE.Board || (function() {
             if (config.fullScreen) {
                 fullScreenText = "On Windows, press F11 to play in Full Screen mode.";
             }
-            welcomeTxt.innerHTML = "Snake Game<p></p>Use the <strong>arrow keys</strong> on your keyboard to play the game. Press <strong>Pause</strong> to pause the game. " + fullScreenText + "<p></p>";
+            welcomeTxt.innerHTML = "Snake Game<p></p>Use the <strong>arrow keys</strong> on your keyboard to play the game. Press <strong>[space]</strong> to pause the game. " + fullScreenText + "<p></p>";
             var welcomeStart = document.createElement("button");
             welcomeStart.appendChild(document.createTextNode("Play Game"));
             var loadGame = function() {
